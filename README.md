@@ -1,7 +1,7 @@
 # DrawingBoard-Android
 This is a library for custom drawing using canvas. By adding this module, you can integrate a drawing board where you can easily draw anything and can be later saved as an image.
 
-#Setup
+##Setup
 
 1. Download the drawingboard.aar file to your system
 2. Add drawingboard.aar file to the project by following the below step:
@@ -16,7 +16,7 @@ This is a library for custom drawing using canvas. By adding this module, you ca
     Note: Module name 'drawingboard' should match the name of the folder that was added after you imported the         AAR file
 3. Synchronize gradle (using toolbar button or in File->Synchronize) after you do this.
 
- # Integrate DrawingBoard to your xml
+ ##Integrate DrawingBoard to your xml
  
  ```
  <com.suyati.telvin.signatureview.DrawingBoard
@@ -24,7 +24,7 @@ This is a library for custom drawing using canvas. By adding this module, you ca
     android:layout_height="match_parent"
     android:id="@+id/drawinboard"/>
  ```
- # Customize your DrawingBoard
+ ##Customize your DrawingBoard
  
   * To change the board color 
    ```
@@ -41,7 +41,7 @@ This is a library for custom drawing using canvas. By adding this module, you ca
   drawingBoard.setPenWidth(6f);
   ```
   
-#DrawingBoard Actions
+##DrawingBoard Actions
 
 * To clear the drawing on the board
   ```
@@ -59,7 +59,7 @@ This is a library for custom drawing using canvas. By adding this module, you ca
   ```
   Note: Add WRITE_EXTERNAL_STORAGE permission in manifest file.
   
-  * To get Bitmap of current drawing on the board
+* To get Bitmap of current drawing on the board
   ```
   drawingBoard.getBitMapSignature();
   ```
