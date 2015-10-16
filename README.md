@@ -19,7 +19,7 @@ This is a library for custom drawing using canvas. By adding this module, you ca
 ##Integrate DrawingBoard to your xml
  
    ```
-   <com.suyati.telvin.signatureview.DrawingBoard
+   <com.suyati.telvin.drawingboard.DrawingBoard
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawinboard"/>
